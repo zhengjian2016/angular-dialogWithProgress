@@ -21,7 +21,7 @@ export class DialogContentExample {
     });
 
     setTimeout(() => {
-      dialogRef.close(true);
+      // dialogRef.close(true);
     }, 3000);
   }
 }

@@ -10,8 +10,6 @@ import { ProgressSpinnerMode } from '@angular/material/progress-spinner';
   templateUrl: 'progress-spinner.html',
   styleUrls: ['progress-spinner.css'],
 })
-export class ProgressSpinner {
-  color: ThemePalette = 'warn';
-  mode: ProgressSpinnerMode = 'indeterminate';
-  value = 50;
+export class ProgressSpinner { 
+  mode: ProgressSpinnerMode = 'indeterminate'
 }
